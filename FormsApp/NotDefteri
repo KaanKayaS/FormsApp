@@ -1,0 +1,12 @@
+// var path = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot/img", imageFile.FileName); --->Projenin dizinine img klasörüne resmi yükler.
+
+// var extension = Path.GetExtension(imageFile.FileName);  -----> Dosya uzantısı jpg, pdf değişkene atıyor 
+
+// var randomFileName = string.Format($"{Guid.NewGuid()}{extension}"); ------> geçici bir string parametresiyle random name oluşturuyor dosya uzantısınıda sonuna ekliyor.
+
+
+
+//         using(var stream = new FileStream(path, FileMode.Create))
+//             {
+//                await imageFile.CopyToAsync(stream);             --->Dosyayı yükleme işlemi async olduğu için task<IactionResult> yaptık
+//             }      
